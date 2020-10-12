@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+
+	<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			background-color: black;
+		}
+	
+		.Menu{
+			position: relative;
+			margin: 0 auto;
+			width:  1000px;
+			overflow: hidden;
+		}
+
+		.Menu li{
+			width: 100%;
+			margin: 0;
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.Menu ul li {
+			list-style: none;
+		}
+
+		.Menu ul li,
+		.Menu ul li a {
+			color: yellow;
+			line-height: 44px;
+			text-decoration: none; 
+
+		}	
+
+
+.Menu ul li a.Menu_item{
+ transform: scale(1);
+ transition: 0.5s;
+ display: block;
+
+}
+
+.Menu ul li a.Menu_item.hide_item{
+   transform: scale(0);
+}
+
+.Menu_item ul li:nth-child(2) a.Menu_item.hide_item{
+ transition-delay: 0.6s;
+}
+	</style>
+</head>
+<body>
+	<nav> 
+		<div class="Menu">
+			<ul>
+			<li><a href="" class="Menu_item">Home</a></li>
+			<li><a href="" class="Menu_item">gfgf</a></li>
+			<li><a href="" class="Menu_item">dfdf</a></li>
+			<li><a href="" id="s_earch"><i class="fas fa-search" class="Menu_item"></i></a></li>
+		
+		</ul>
+	</div>
+	
+	</nav>
+
+	<script type="text/javascript">
+				$(document).ready(function(){
+			$("#s_earch").click(function(){
+				$(".Menu_item").addClass('.hide_item')
+			})
+		})	
+				</script>
+</body>
+</html>
