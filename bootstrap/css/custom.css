@@ -20,14 +20,118 @@
     color: yellow;
 } */
 
-	.logo_image{
-		width: 100px;
-		height: 90px;
-	}
-	.logo_style{
-		font-family: lobster;
-		margin-left:-35px;
-	}
+.container1{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.row1{
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer{
+  background: black;
+  color: black;
+  font-size: 14px;
+  padding: 60px 0px 20px;
+}
+
+.footer p{
+  color: white;
+}
+
+.footer h3{
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3{
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-col-1{
+  flex-basis: 30%;
+}
+
+.footer-col-2{
+  flex: 1;
+  text-align: center;
+}
+
+.footer-col-2 img{
+  width: 180px;
+  margin-bottom:20px;
+}
+
+.footer-col-3{
+  flex-basis: 12%;
+  text-align: center;
+}
+
+.sm{
+  font-size: 15px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.app-logo{
+  margin-top: 20px;
+}
+
+.app-logo img{
+  width: 150px;
+  height: 40px;
+}
+
+.footer hr{
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+
+.copyright{
+  text-align: center;
+  font-size: 15px;
+}
+
+.menu-icon{
+  width: 28px;
+  margin-left: 20px;
+}
+
+.jj{
+  padding-top: 2px;
+}
+
+.x{
+  border: 1px solid black;
+}
+
+.x input{
+  color: yellow;
+}
+
+.hh{
+  padding-right: 5px;
+}
+
+.s{
+  color: white;
+}
+
+.s:hover{
+  color: yellow;
+  text-decoration: none;
+}
 
 .inner{
   overflow: hidden;
